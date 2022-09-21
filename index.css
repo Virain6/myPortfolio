@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    color: white;
+}
+#virain{
+    bottom: 0;
+    Left: 15%;
+    max-width: 20%;
+    position: fixed;
+}
+h1{
+    color: wheat;
+    font-size: 55px;
+    margin: 0;
+
+}
+h3{
+    color: #818181;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+h2{
+    color: wheat;
+    font-family: 'Raleway', sans-serif;
+    left: 0;
+    font-weight: bolder;
+}
+p{
+    color: #818181;
+    font-family: 'Raleway', sans-serif;
+    left: 5%;
+    font-size: 15px;
+}
+
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left {
+    width: 40%;
+    left: 0;
+    background-color: black;
+}
+
+.right {
+    width: 60%;
+    right: 0;
+    background-color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.second{
+    margin-top: 100%;
+    position: absolute;
+    text-align:left;
+}
+.sidenav {
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20%;
+}
+
+.sidenav a {
+    padding: 10px 6px 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: wheat;
+}
+
+.main {
+    margin-left: 120px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+th{
+    color: #818181;
+    font-weight: lighter;
+    font-size: 15px;
+    width: 100%;
+}
+.title{
+    font-weight: bold;
+}
+table{
+    white-space:nowrap;
+}
+.blank_row{
+    height: 10px;
+}
+input, textarea{
+    width: 100%;
+    font-size: 15px;
+    background-color: #111;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    color:wheat;
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+::placeholder{
+    color:#818181;
+}
+
+input:hover {
+    background-color: #191c1f;
+}
+.message{
+    height: 50px;
+    line-height: 15px;
+}
+button{
+    width: 40%;
+    font-size: 15px;
+    background-color: #818181;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
